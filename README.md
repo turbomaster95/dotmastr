@@ -1,6 +1,6 @@
-# dotmastr
+# Dotmastr
 
-A Simple Dotfiles manager written in Python
+A Simple Dotfiles manager written in Python.
 ## Installation
 
 Install dotmastr manually by running the commands below.
@@ -14,6 +14,10 @@ pip install -r requirements.txt
 make clean build
 ```
 
+Then to install it to `/usr/local/bin`:
+```bash
+make install
+```
 
 
 
@@ -21,10 +25,21 @@ make clean build
 ## Usage/Examples
 
 
-For help!
+For help run:
 ```bash
-./main 
+./dotmastr
 ```
+
+Example for saving `~/.bashrc`:
+```bash
+./dotmastr add ~/.bashrc
+```
+
+Example for saving `~/.config/hypr/hyprland.conf`:
+```bash
+./dotmastr add ~/.config/hypr/hyprland.conf
+```
+
 
 
 
